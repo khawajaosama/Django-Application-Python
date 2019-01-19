@@ -14,6 +14,7 @@ These are the important libraries that you will need in order to process this pr
 - Numpy
 - Matplotlib
 ```
+    
 ### NOTE:
 
 You can download Django from this site [https://www.djangoproject.com/download/](https://www.cryptonator.com/api).
