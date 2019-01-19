@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Article
 from django.http import HttpResponse
-from django.shortcuts import render
+
 
 def article_list(request):
     #return HttpResponse('about')

@@ -25,8 +25,12 @@ This project was built using this link [Django Documentation](https://www.django
 ## Commands:
  
  ``` 
+ - from django.shortcuts import render
+ - from django.http import HttpResponse
+ - from django.urls import path,include
+ - from django.conf.urls import url,include
+
  -django-admin startproject project_name 
  -python3 manage.py app_name 
  - Register it on settings.py file under apps 
- - from django.shortcuts import render
  ```
