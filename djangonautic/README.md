@@ -51,4 +51,4 @@ This project was built using this link [Django Documentation](https://www.django
  ```
 
 
- ![alt text](screenshots/models.png "Description goes here")
+ ![alt text](screenshots/models.png "Using of Interactive Shell Of Django")
