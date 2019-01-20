@@ -51,7 +51,6 @@ This project was built using this link [Django Documentation](https://www.django
 
  ```
 
-## Using of Interactive Shell Of Django:
 # Django ORM (Interactive Shell):
 ```
  (ORM bridges the gap between the code and Database, so that we can 
