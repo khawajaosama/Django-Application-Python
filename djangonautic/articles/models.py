@@ -9,3 +9,6 @@ class Article(models.Model):
 # add in author later
     def __str__(self):
         return self.title
+
+
+# models are a class that represent a single table in a data base
