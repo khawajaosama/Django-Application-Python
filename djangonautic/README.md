@@ -26,12 +26,25 @@ This project was built using this link [Django Documentation](https://www.django
 ## Commands:
  
  ``` 
+# Start Project:
+- django-admin startproject project_name 
+
+ # Run Server:
+ - python3 manage.py runserver
+
+ # Importings
  - from django.shortcuts import render
  - from django.http import HttpResponse
  - from django.urls import path,include
  - from django.conf.urls import url,include
 
- -django-admin startproject project_name 
+# Apps Creating: 
  -python3 manage.py app_name 
  - Register it on settings.py file under apps 
+ 
+ # Migration Commands:
+ - python3 manage.py makemigrations (first perform this)
+ - python3 manage.py migrate
+
+
  ```
