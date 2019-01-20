@@ -50,5 +50,5 @@ This project was built using this link [Django Documentation](https://www.django
  - python3 manage.py shell
  ```
 
-## Using of Interactive Shell Of Django
- ![alt text](screenshots/models.png)
+## Using of Interactive Shell Of Django:
+ !(screenshots/models.png)
