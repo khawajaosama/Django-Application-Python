@@ -51,4 +51,4 @@ This project was built using this link [Django Documentation](https://www.django
  ```
 
 ## Using of Interactive Shell Of Django:
- !(screenshots/models.png)
+ ![](screenshots/models.png)
