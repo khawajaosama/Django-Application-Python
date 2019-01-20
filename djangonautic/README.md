@@ -46,6 +46,9 @@ This project was built using this link [Django Documentation](https://www.django
  - python3 manage.py makemigrations (first perform this)
  - python3 manage.py migrate
 
+ # SuperUser:
+ - python3 manage.py createsuperuser
+
  ```
 
 ## Using of Interactive Shell Of Django:
@@ -53,7 +56,10 @@ This project was built using this link [Django Documentation](https://www.django
 ```
  (ORM bridges the gap between the code and Database, so that we can 
  interact with database to retrieve ,save and perform various operation from with database.)
+
  - python3 manage.py shell
 ```
  ![](screenshots/models.png)
 
+# Admin section (http://127.0.0.1:8000/admin/):
+ ![](screenshots/admin.png)
