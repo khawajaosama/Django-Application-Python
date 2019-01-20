@@ -51,7 +51,8 @@ This project was built using this link [Django Documentation](https://www.django
 ## Using of Interactive Shell Of Django:
 # Django ORM (Interactive Shell):
 ```
- (ORM bridges the gap between the code and Database, so that we can interact with database to retrieve ,save and perform various operation from with database.)
+ (ORM bridges the gap between the code and Database, so that we can 
+ interact with database to retrieve ,save and perform various operation from with database.)
  - python3 manage.py shell
 ```
  ![](screenshots/models.png)
