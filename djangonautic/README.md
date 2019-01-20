@@ -46,9 +46,11 @@ This project was built using this link [Django Documentation](https://www.django
  - python3 manage.py makemigrations (first perform this)
  - python3 manage.py migrate
 
-# Interactive Shell:
- - python3 manage.py shell
  ```
 
 ## Using of Interactive Shell Of Django:
+# Interactive Shell:
+```
+ - python3 manage.py shell
+```
  ![](screenshots/models.png)
