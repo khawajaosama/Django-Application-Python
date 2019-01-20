@@ -51,7 +51,7 @@ This project was built using this link [Django Documentation](https://www.django
 
  ```
 
-# Django ORM (Interactive Shell):
+### Django ORM (Interactive Shell):
 ```
  (ORM bridges the gap between the code and Database, so that we can 
  interact with database to retrieve ,save and perform various operation from with database.)
@@ -60,5 +60,5 @@ This project was built using this link [Django Documentation](https://www.django
 ```
  ![](screenshots/models.png)
 
-# Admin section (http://127.0.0.1:8000/admin/):
+### Admin section (http://127.0.0.1:8000/admin/):
  ![](screenshots/admin.png)
