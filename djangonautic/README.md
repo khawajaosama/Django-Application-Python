@@ -1,5 +1,5 @@
 # DJANGO THE WEB FRAME WORK FOR PYTHON
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.`
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design`
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `Built by experienced developers, it takes care of much of the hassle of Web development.`
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `So you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.`
 
