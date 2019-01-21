@@ -10,5 +10,7 @@ class Article(models.Model):
     def __str__(self):
         return self.title
 
+    def snippet(self):
+        return self.body[:50] + '...'
 
 # models are a class that represent a single table in a data base

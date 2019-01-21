@@ -61,4 +61,14 @@ This project was built using this link [Django Documentation](https://www.django
  ![](screenshots/models.png)
 
 ### Admin section (http://127.0.0.1:8000/admin/):
+```
+ You can access admin like this.
+```
  ![](screenshots/admin.png)
+
+### Html Tags:
+```
+ {% 'Python code goes here' %}
+ {{ 'Data goes here' }}
+```
+ ![](screenshots/html_tags.png)
