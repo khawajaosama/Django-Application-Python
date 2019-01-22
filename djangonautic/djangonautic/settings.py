@@ -118,4 +118,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/'  # for static url i.e localhost:8000/static/styles.css
+
+# Can also work with (STATIC_URL = '/static/osama/') because we import static from staticfiles
+# static = STATIC_URL
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'assets')   # we link css in html as /static/styles.css not /assets/styles.css
+]

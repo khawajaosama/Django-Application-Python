@@ -62,7 +62,7 @@ This project was built using this link [Django Documentation](https://www.django
 
 ### Admin section (http://127.0.0.1:8000/admin/):
 ```
- You can access admin like this.
+ You can access admin section like this.
 ```
  ![](screenshots/admin.png)
 
@@ -72,3 +72,11 @@ This project was built using this link [Django Documentation](https://www.django
  {{ 'Data goes here' }}
 ```
  ![](screenshots/html_tags.png)
+
+### Static Files:
+```
+ {% load static from staticfiles %}
+ # Can also work with (STATIC_URL = '/static/files/') because we import static from staticfiles
+ # static = STATIC_URL
+```
+ ![](screenshots/stars_ss.png)
