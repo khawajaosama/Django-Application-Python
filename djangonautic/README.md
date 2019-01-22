@@ -80,3 +80,9 @@ This project was built using this link [Django Documentation](https://www.django
  # static = STATIC_URL
 ```
  ![](screenshots/stars_ss.png)
+
+### Url Parameters:
+```
+ url(r'^(?P<keyword>[\w-]+)/$')
+```
+ ![](screenshots/url_params.png)
