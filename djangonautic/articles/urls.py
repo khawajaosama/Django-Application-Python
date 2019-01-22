@@ -5,6 +5,7 @@ from . import views
 
 urlpatterns = [
     url(r'^articles_list/',views.article_list),
+    url(r'^(?P<slug>[\w-]+)/$',views.article_detail)
     # path(r'admin/', admin.site.urls),
     # path(r'about/',views.about),
     #path('^$',views.about)

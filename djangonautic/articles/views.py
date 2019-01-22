@@ -12,3 +12,5 @@ def article_list(request):
 # def homepage(request):
 #     #return HttpResponse('This is Homepage')
 #     return render(request,'homepage.html')
+def article_detail(request,slug):
+    return render(request,'articles/url_params.html',{'params':slug})
