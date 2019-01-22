@@ -1,16 +1,9 @@
-{% load static from staticfiles %}
+{% extends 'base_layout.html'%}
 
-<!DOCTYPE <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Article</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles.css' %}" />
-    <script src="main.js"></script>
-</head>
+{% block content %}
 <body>
+    <h1>Article List</h1>
+    <br/>
     <div class="articles">
         {% for article in articles%}
         <div class="article">
@@ -18,7 +11,8 @@
             <p>{{article.slug}}</p>
             <p>{{article.snippet}}</p>
         </div>
+        <br/>
         {% endfor %}
     </div>
 </body>
-</html>
+{% endblock%}
