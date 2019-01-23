@@ -85,4 +85,4 @@ This project was built using this link [Django Documentation](https://www.django
 ```
  url(r'^(?P<keyword>[\w-]+)/$')
 ```
- ![](screenshots/url_params.png)
+ ![](screenshots/url_params.png).
