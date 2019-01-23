@@ -14,3 +14,7 @@ def article_list(request):
 #     return render(request,'homepage.html')
 def article_detail(request,slug):
     return render(request,'articles/url_params.html',{'params':slug})
+
+def article_full_detail(request,slug):
+    article =Article.objects.get(slug=slug)
+    return render(request,'articles/articles_detail.html',{'article':article})
