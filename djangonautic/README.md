@@ -78,6 +78,11 @@ This project was built using this link [Django Documentation](https://www.django
  {% load static from staticfiles %}
  # Can also work with (STATIC_URL = '/static/files/') because we import static from staticfiles
  # static = STATIC_URL
+ 
+ from django.contrib.staticfiles.urls import staticfiles_urlpatterns 
+
+ urlpatterns += staticfiles_urlpatterns()
+
 ```
  ![](screenshots/stars_ss.png)
 
@@ -86,3 +91,23 @@ This project was built using this link [Django Documentation](https://www.django
  url(r'^(?P<keyword>[\w-]+)/$')
 ```
  ![](screenshots/url_params.png)
+
+### Media Files:
+```
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = (
+    os.path.join(BASE_DIR,'media')
+)
+
+ from django.conf.urls.static import static
+ from django.conf import settings
+
+ urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+```
+### Saving Users:
+```
+ {% csrf_token %} should be in data which is sending for GET request
+ html form (action)-->  <form class="site-form" action="/accounts/signup" method="post">
+ redirect('<'app_name'>:<'url_name'>) --> redirect('articles:list')
+```

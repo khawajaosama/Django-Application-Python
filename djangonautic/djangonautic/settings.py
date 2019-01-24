@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'articles'
+    'articles',
+    'accounts'
 ]
 
 MIDDLEWARE = [
@@ -126,3 +127,9 @@ STATIC_URL = '/static/'  # for static url i.e localhost:8000/static/styles.css
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'assets')   # we link css in html as /static/styles.css not /assets/styles.css
 ]
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = (
+    os.path.join(BASE_DIR,'media')
+)
