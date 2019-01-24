@@ -111,3 +111,4 @@ MEDIA_ROOT = (
  html form (action)-->  <form class="site-form" action="/accounts/signup" method="post">
  redirect('<'app_name'>:<'url_name'>) --> redirect('articles:list')
 ```
+![](screenshots/token.png)
