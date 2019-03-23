@@ -7,6 +7,7 @@ app_name = 'articles'  # we are name spacing this file
 
 urlpatterns = [
     url(r'^articles_list/',views.article_list,name='list'),
+    url(r'^create/$',views.article_create,name='create'),
     url(r'^slug:(?P<slug>[\w-]+)/$',views.article_detail,name='detail'),
     url(r'^find:(?P<slug>[\w-]+)/$',views.article_full_detail,name='detail')
     # path(r'^admin/', admin.site.urls),
